@@ -1,0 +1,1096 @@
+CRITICAL - 2024-02-29 00:44:06 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\Users\Arjay A. Charcos\Downloads\framework-4.4.6\framework-4.4.6\app\Controllers\Home.php on line 9
+in SYSTEMPATH\Common.php on line 1166.
+ 1 APPPATH\Controllers\Home.php(9): view('welcome_message', 'test')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Arjay A. Charcos\\Downloads\\framework-4.4.6\\framework-4.4.6\\public\\index.php')
+CRITICAL - 2024-02-29 00:44:09 --> TypeError: view(): Argument #2 ($data) must be of type array, string given, called in C:\Users\Arjay A. Charcos\Downloads\framework-4.4.6\framework-4.4.6\app\Controllers\Home.php on line 9
+in SYSTEMPATH\Common.php on line 1166.
+ 1 APPPATH\Controllers\Home.php(9): view('welcome_message', 'test')
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\Users\\Arjay A. Charcos\\Downloads\\framework-4.4.6\\framework-4.4.6\\public\\index.php')
+CRITICAL - 2024-02-29 01:56:11 --> ErrorException: include(config.php): Failed to open stream: No such file or directory
+in APPPATH\Views\test.php on line 2.
+ 1 APPPATH\Views\test.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(config.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\crud\\app\\Views\\test.php', 2)
+ 2 APPPATH\Views\test.php(2): include()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\crud\\app\\Views\\test.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('test', [], true)
+ 6 APPPATH\Controllers\Home.php(9): view('test')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 01:56:20 --> ErrorException: Undefined variable $con
+in APPPATH\Views\test.php on line 38.
+ 1 APPPATH\Views\test.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $con', 'C:\\xampp\\htdocs\\crud\\app\\Views\\test.php', 38)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\crud\\app\\Views\\test.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('test', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('test')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 01:59:32 --> ParseError: Unmatched '}'
+in APPPATH\Views\test.php on line 56.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('test', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('test')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 02:04:56 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\test.php on line 36.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('test', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('test')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 02:04:56 --> [Caused by] ErrorException: Undefined variable $user
+in APPPATH\Views\test.php on line 36.
+ 1 APPPATH\Views\test.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\crud\\app\\Views\\test.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\crud\\app\\Views\\test.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('test', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('test')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 02:13:31 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\test.php on line 35.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('test', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('test')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 02:13:31 --> [Caused by] ErrorException: Undefined variable $user
+in APPPATH\Views\test.php on line 35.
+ 1 APPPATH\Views\test.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\crud\\app\\Views\\test.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\crud\\app\\Views\\test.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('test', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('test')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 02:13:32 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\test.php on line 35.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('test', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('test')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 02:13:32 --> [Caused by] ErrorException: Undefined variable $user
+in APPPATH\Views\test.php on line 35.
+ 1 APPPATH\Views\test.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\crud\\app\\Views\\test.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\crud\\app\\Views\\test.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('test', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('test')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 02:18:57 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\test.php on line 35.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('test', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('test')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 02:18:57 --> [Caused by] ErrorException: Undefined variable $user
+in APPPATH\Views\test.php on line 35.
+ 1 APPPATH\Views\test.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\crud\\app\\Views\\test.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\crud\\app\\Views\\test.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('test', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('test')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 02:18:57 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\test.php on line 35.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('test', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('test')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 02:18:57 --> [Caused by] ErrorException: Undefined variable $user
+in APPPATH\Views\test.php on line 35.
+ 1 APPPATH\Views\test.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\crud\\app\\Views\\test.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\crud\\app\\Views\\test.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('test', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('test')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 02:18:57 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\test.php on line 35.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('test', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('test')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 02:18:57 --> [Caused by] ErrorException: Undefined variable $user
+in APPPATH\Views\test.php on line 35.
+ 1 APPPATH\Views\test.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\crud\\app\\Views\\test.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\crud\\app\\Views\\test.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('test', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('test')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 02:20:19 --> ParseError: syntax error, unexpected token "}"
+in APPPATH\Views\test.php on line 59.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('test', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('test')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 02:26:24 --> ParseError: Unmatched '}'
+in APPPATH\Views\test.php on line 69.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('test', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('test')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 02:26:24 --> ParseError: Unmatched '}'
+in APPPATH\Views\test.php on line 69.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('test', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('test')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 02:26:29 --> ParseError: Unmatched '}'
+in APPPATH\Views\test.php on line 69.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('test', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('test')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 02:26:29 --> ParseError: Unmatched '}'
+in APPPATH\Views\test.php on line 69.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('test', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('test')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 02:28:03 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\test.php on line 35.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('test', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('test')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 02:28:03 --> [Caused by] ErrorException: Undefined variable $user
+in APPPATH\Views\test.php on line 35.
+ 1 APPPATH\Views\test.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\crud\\app\\Views\\test.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\crud\\app\\Views\\test.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('test', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('test')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 02:28:04 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\test.php on line 35.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('test', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('test')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 02:28:04 --> [Caused by] ErrorException: Undefined variable $user
+in APPPATH\Views\test.php on line 35.
+ 1 APPPATH\Views\test.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\crud\\app\\Views\\test.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\crud\\app\\Views\\test.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('test', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('test')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 02:30:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "test.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('test.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('test', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('test')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 02:30:28 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\user.php on line 35.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('user')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 02:30:28 --> [Caused by] ErrorException: Undefined variable $user
+in APPPATH\Views\user.php on line 35.
+ 1 APPPATH\Views\user.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\crud\\app\\Views\\user.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\crud\\app\\Views\\user.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('user')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 02:31:33 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\user.php on line 35.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('user')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 02:31:33 --> [Caused by] ErrorException: Undefined variable $user
+in APPPATH\Views\user.php on line 35.
+ 1 APPPATH\Views\user.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\crud\\app\\Views\\user.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\crud\\app\\Views\\user.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('user')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 02:49:30 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\user.php on line 35.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('user')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 02:49:30 --> [Caused by] ErrorException: Undefined variable $user
+in APPPATH\Views\user.php on line 35.
+ 1 APPPATH\Views\user.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\crud\\app\\Views\\user.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\crud\\app\\Views\\user.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('user')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 02:49:31 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\user.php on line 35.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('user')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 02:49:31 --> [Caused by] ErrorException: Undefined variable $user
+in APPPATH\Views\user.php on line 35.
+ 1 APPPATH\Views\user.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\crud\\app\\Views\\user.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\crud\\app\\Views\\user.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('user')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 02:49:32 --> TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given
+in APPPATH\Views\user.php on line 35.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user', [], true)
+ 4 APPPATH\Controllers\Home.php(9): view('user')
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 02:49:32 --> [Caused by] ErrorException: Undefined variable $user
+in APPPATH\Views\user.php on line 35.
+ 1 APPPATH\Views\user.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\crud\\app\\Views\\user.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\crud\\app\\Views\\user.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('user')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 02:52:39 --> ErrorException: Undefined variable $user
+in APPPATH\Views\user.php on line 35.
+ 1 APPPATH\Views\user.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\crud\\app\\Views\\user.php', 35)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\crud\\app\\Views\\user.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('user')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 02:57:31 --> ErrorException: Undefined variable $user
+in APPPATH\Views\user.php on line 37.
+ 1 APPPATH\Views\user.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\crud\\app\\Views\\user.php', 37)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\crud\\app\\Views\\user.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('user')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 02:59:58 --> ErrorException: Undefined variable $user
+in APPPATH\Views\user.php on line 36.
+ 1 APPPATH\Views\user.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\crud\\app\\Views\\user.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\crud\\app\\Views\\user.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('user')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 02:59:58 --> ErrorException: Undefined variable $user
+in APPPATH\Views\user.php on line 36.
+ 1 APPPATH\Views\user.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\crud\\app\\Views\\user.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\crud\\app\\Views\\user.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('user')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 02:59:59 --> ErrorException: Undefined variable $user
+in APPPATH\Views\user.php on line 36.
+ 1 APPPATH\Views\user.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\crud\\app\\Views\\user.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\crud\\app\\Views\\user.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('user')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 03:00:03 --> ErrorException: Undefined variable $user
+in APPPATH\Views\user.php on line 36.
+ 1 APPPATH\Views\user.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\crud\\app\\Views\\user.php', 36)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\crud\\app\\Views\\user.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('user')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 03:01:12 --> ErrorException: Undefined variable $user
+in APPPATH\Views\user.php on line 34.
+ 1 APPPATH\Views\user.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\crud\\app\\Views\\user.php', 34)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\crud\\app\\Views\\user.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('user')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 03:01:13 --> ErrorException: Undefined variable $user
+in APPPATH\Views\user.php on line 34.
+ 1 APPPATH\Views\user.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'C:\\xampp\\htdocs\\crud\\app\\Views\\user.php', 34)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\crud\\app\\Views\\user.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('user')
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 03:07:41 --> ParseError: Unmatched '}'
+in APPPATH\Views\user.php on line 65.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('user')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 03:07:42 --> ParseError: Unmatched '}'
+in APPPATH\Views\user.php on line 65.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('user', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('user')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 03:11:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:18:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:22:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:23:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:26:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 03:26:18 --> ErrorException: include(config.php): Failed to open stream: No such file or directory
+in APPPATH\Views\newusers.php on line 2.
+ 1 APPPATH\Views\newusers.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(config.php): Failed to open stream: No such file or directory', 'C:\\xampp\\htdocs\\crud\\app\\Views\\newusers.php', 2)
+ 2 APPPATH\Views\newusers.php(2): include()
+ 3 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\crud\\app\\Views\\newusers.php')
+ 4 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('newusers', [], true)
+ 6 APPPATH\Controllers\UserController.php(23): view('newusers')
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->newusers()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 03:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:38:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 03:38:04 --> Error: Class "App\Controllers\MyUser" not found
+in APPPATH\Controllers\UserController.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->addusers()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 03:41:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-29 03:41:17 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\crud\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\crud\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\crud\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\crud\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\crud\app\Controllers\UserController.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\crud\system\CodeIgniter.php(941): App\Controllers\UserController->addusers()
+#9 C:\xampp\htdocs\crud\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#10 C:\xampp\htdocs\crud\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\crud\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-02-29 03:41:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`studentId`, `firstName`, `middleName`, `lastName`, `dateOfBirth`, `email`, `phoneNumber`, `date_created`, `updated_at`) VALUES (:studentId:, :firstName:, :middleName:, :lastName:, :dateOfBirth:, :email:, :phoneNumber:, :date_created:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\UserController.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->addusers()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 03:41:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`studentId`, `firstName`, `middleName`, `lastName`, `dateOfBirth`, `email`, `phoneNumber`, `date_created`, `updated_at`) VALUES (\'\', \'\', \'\', \'\', \'\', \'\', \'\', \'2024-02-29 03:41:17\', \'2024-02-29 03:41:17\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`studentId`, `firstName`, `middleName`, `lastName`, `dateOfBirth`, `email`, `phoneNumber`, `date_created`, `updated_at`) VALUES (\'\', \'\', \'\', \'\', \'\', \'\', \'\', \'2024-02-29 03:41:17\', \'2024-02-29 03:41:17\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`studentId`, `firstName`, `middleName`, `lastName`, `dateOfBirth`, `email`, `phoneNumber`, `date_created`, `updated_at`) VALUES (:studentId:, :firstName:, :middleName:, :lastName:, :dateOfBirth:, :email:, :phoneNumber:, :date_created:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\UserController.php(48): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->addusers()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 03:41:17 --> [Caused by] mysqli_sql_exception: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `user` (`studentId`, `firstName`, `middleName`, `lastName`, `dateOfBirth`, `email`, `phoneNumber`, `date_created`, `updated_at`) VALUES (\'\', \'\', \'\', \'\', \'\', \'\', \'\', \'2024-02-29 03:41:17\', \'2024-02-29 03:41:17\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`studentId`, `firstName`, `middleName`, `lastName`, `dateOfBirth`, `email`, `phoneNumber`, `date_created`, `updated_at`) VALUES (\'\', \'\', \'\', \'\', \'\', \'\', \'\', \'2024-02-29 03:41:17\', \'2024-02-29 03:41:17\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`studentId`, `firstName`, `middleName`, `lastName`, `dateOfBirth`, `email`, `phoneNumber`, `date_created`, `updated_at`) VALUES (\'\', \'\', \'\', \'\', \'\', \'\', \'\', \'2024-02-29 03:41:17\', \'2024-02-29 03:41:17\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`studentId`, `firstName`, `middleName`, `lastName`, `dateOfBirth`, `email`, `phoneNumber`, `date_created`, `updated_at`) VALUES (:studentId:, :firstName:, :middleName:, :lastName:, :dateOfBirth:, :email:, :phoneNumber:, :date_created:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\UserController.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->addusers()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 03:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-29 03:41:25 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\crud\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\crud\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\crud\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\crud\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\crud\app\Controllers\UserController.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\crud\system\CodeIgniter.php(941): App\Controllers\UserController->addusers()
+#9 C:\xampp\htdocs\crud\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#10 C:\xampp\htdocs\crud\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\crud\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-02-29 03:41:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`studentId`, `firstName`, `middleName`, `lastName`, `dateOfBirth`, `email`, `phoneNumber`, `date_created`, `updated_at`) VALUES (:studentId:, :firstName:, :middleName:, :lastName:, :dateOfBirth:, :email:, :phoneNumber:, :date_created:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\UserController.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->addusers()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 03:41:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`studentId`, `firstName`, `middleName`, `lastName`, `dateOfBirth`, `email`, `phoneNumber`, `date_created`, `updated_at`) VALUES (\'\', \'\', \'\', \'\', \'\', \'\', \'\', \'2024-02-29 03:41:25\', \'2024-02-29 03:41:25\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`studentId`, `firstName`, `middleName`, `lastName`, `dateOfBirth`, `email`, `phoneNumber`, `date_created`, `updated_at`) VALUES (\'\', \'\', \'\', \'\', \'\', \'\', \'\', \'2024-02-29 03:41:25\', \'2024-02-29 03:41:25\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`studentId`, `firstName`, `middleName`, `lastName`, `dateOfBirth`, `email`, `phoneNumber`, `date_created`, `updated_at`) VALUES (:studentId:, :firstName:, :middleName:, :lastName:, :dateOfBirth:, :email:, :phoneNumber:, :date_created:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\UserController.php(48): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->addusers()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 03:41:25 --> [Caused by] mysqli_sql_exception: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `user` (`studentId`, `firstName`, `middleName`, `lastName`, `dateOfBirth`, `email`, `phoneNumber`, `date_created`, `updated_at`) VALUES (\'\', \'\', \'\', \'\', \'\', \'\', \'\', \'2024-02-29 03:41:25\', \'2024-02-29 03:41:25\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`studentId`, `firstName`, `middleName`, `lastName`, `dateOfBirth`, `email`, `phoneNumber`, `date_created`, `updated_at`) VALUES (\'\', \'\', \'\', \'\', \'\', \'\', \'\', \'2024-02-29 03:41:25\', \'2024-02-29 03:41:25\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`studentId`, `firstName`, `middleName`, `lastName`, `dateOfBirth`, `email`, `phoneNumber`, `date_created`, `updated_at`) VALUES (\'\', \'\', \'\', \'\', \'\', \'\', \'\', \'2024-02-29 03:41:25\', \'2024-02-29 03:41:25\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`studentId`, `firstName`, `middleName`, `lastName`, `dateOfBirth`, `email`, `phoneNumber`, `date_created`, `updated_at`) VALUES (:studentId:, :firstName:, :middleName:, :lastName:, :dateOfBirth:, :email:, :phoneNumber:, :date_created:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\UserController.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->addusers()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 03:46:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-02-29 03:46:01 --> mysqli_sql_exception: Unknown column 'updated_at' in 'field list' in C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\crud\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\crud\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\crud\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\crud\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\crud\app\Controllers\UserController.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\crud\system\CodeIgniter.php(941): App\Controllers\UserController->addusers()
+#9 C:\xampp\htdocs\crud\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#10 C:\xampp\htdocs\crud\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\crud\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-02-29 03:46:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`studentId`, `firstName`, `middleName`, `lastName`, `dateOfBirth`, `email`, `phoneNumber`, `date_created`, `updated_at`) VALUES (:studentId:, :firstName:, :middleName:, :lastName:, :dateOfBirth:, :email:, :phoneNumber:, :date_created:, :updated_at:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\UserController.php(48): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->addusers()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 03:46:01 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`studentId`, `firstName`, `middleName`, `lastName`, `dateOfBirth`, `email`, `phoneNumber`, `date_created`, `updated_at`) VALUES (\'2020300298\', \'arah\', \'charcos\', \'borja\', \'2024-02-01\', \'rainshigatsu\', \'09265567382\', \'2024-02-29 03:46:01\', \'2024-02-29 03:46:01\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`studentId`, `firstName`, `middleName`, `lastName`, `dateOfBirth`, `email`, `phoneNumber`, `date_created`, `updated_at`) VALUES (\'2020300298\', \'arah\', \'charcos\', \'borja\', \'2024-02-01\', \'rainshigatsu\', \'09265567382\', \'2024-02-29 03:46:01\', \'2024-02-29 03:46:01\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`studentId`, `firstName`, `middleName`, `lastName`, `dateOfBirth`, `email`, `phoneNumber`, `date_created`, `updated_at`) VALUES (:studentId:, :firstName:, :middleName:, :lastName:, :dateOfBirth:, :email:, :phoneNumber:, :date_created:, :updated_at:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\UserController.php(48): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->addusers()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-02-29 03:46:01 --> [Caused by] mysqli_sql_exception: Unknown column 'updated_at' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `user` (`studentId`, `firstName`, `middleName`, `lastName`, `dateOfBirth`, `email`, `phoneNumber`, `date_created`, `updated_at`) VALUES (\'2020300298\', \'arah\', \'charcos\', \'borja\', \'2024-02-01\', \'rainshigatsu\', \'09265567382\', \'2024-02-29 03:46:01\', \'2024-02-29 03:46:01\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `user` (`studentId`, `firstName`, `middleName`, `lastName`, `dateOfBirth`, `email`, `phoneNumber`, `date_created`, `updated_at`) VALUES (\'2020300298\', \'arah\', \'charcos\', \'borja\', \'2024-02-01\', \'rainshigatsu\', \'09265567382\', \'2024-02-29 03:46:01\', \'2024-02-29 03:46:01\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `user` (`studentId`, `firstName`, `middleName`, `lastName`, `dateOfBirth`, `email`, `phoneNumber`, `date_created`, `updated_at`) VALUES (\'2020300298\', \'arah\', \'charcos\', \'borja\', \'2024-02-01\', \'rainshigatsu\', \'09265567382\', \'2024-02-29 03:46:01\', \'2024-02-29 03:46:01\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `user` (`studentId`, `firstName`, `middleName`, `lastName`, `dateOfBirth`, `email`, `phoneNumber`, `date_created`, `updated_at`) VALUES (:studentId:, :firstName:, :middleName:, :lastName:, :dateOfBirth:, :email:, :phoneNumber:, :date_created:, :updated_at:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\UserController.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->addusers()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 03:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:51:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:51:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:51:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:51:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:56:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:56:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:57:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 03:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 04:00:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 04:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 04:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 05:03:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 05:03:48 --> Error: Class "App\Controllers\User" not found
+in APPPATH\Controllers\UserController.php on line 111.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->delete('19')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 05:05:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 05:05:15 --> Error: Class "App\Controllers\User" not found
+in APPPATH\Controllers\UserController.php on line 111.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->delete('19')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 05:06:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 05:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 05:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 05:07:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 05:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 05:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 05:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 05:08:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 05:08:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 05:08:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 05:09:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 05:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 05:11:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 05:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 05:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 05:12:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 05:13:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 05:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 05:13:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 05:20:59 --> ArgumentCountError: Too few arguments to function App\Controllers\UserController::delete(), 0 passed in C:\xampp\htdocs\crud\system\CodeIgniter.php on line 941 and exactly 1 expected
+in APPPATH\Controllers\UserController.php on line 107.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->delete()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 05:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 05:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 06:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 06:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 06:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 06:41:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 06:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 06:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 06:52:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 06:52:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 06:52:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 06:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 06:53:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 06:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 06:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 06:57:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 06:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 06:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:04:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:04:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:04:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:06:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:08:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:09:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:09:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:11:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:11:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:15:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:16:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:16:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 07:18:54 --> ErrorException: Undefined array key "studentId"
+in APPPATH\Views\update.php on line 26.
+ 1 APPPATH\Views\update.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "studentId"', 'C:\\xampp\\htdocs\\crud\\app\\Views\\update.php', 26)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\crud\\app\\Views\\update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('update', [], true)
+ 5 APPPATH\Controllers\UserController.php(68): view('update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->editUser('11')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 07:19:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 07:42:21 --> ErrorException: Undefined variable $myUser
+in APPPATH\Views\update.php on line 18.
+ 1 APPPATH\Views\update.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $myUser', 'C:\\xampp\\htdocs\\crud\\app\\Views\\update.php', 18)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\crud\\app\\Views\\update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('update', [], true)
+ 5 APPPATH\Controllers\UserController.php(68): view('update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->editUser('11')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 07:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:43:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 07:44:11 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1778.
+ 1 SYSTEMPATH\BaseModel.php(1778): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(956): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\UserController.php(105): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->updateUsers('15')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 07:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 07:44:19 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1778.
+ 1 SYSTEMPATH\BaseModel.php(1778): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(956): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\UserController.php(105): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->updateUsers('15')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 07:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:44:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 07:44:44 --> CodeIgniter\Database\Exceptions\DatabaseException: Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 388.
+ 1 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\UserController.php(104): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->updateUsers('15')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 07:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:46:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:46:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 07:46:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 388.
+ 1 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\UserController.php(104): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->updateUsers('15')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 07:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 07:48:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 388.
+ 1 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\UserController.php(104): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->updateUsers('15')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 07:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 07:48:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Updates are not allowed unless they contain a "where" or "like" clause.
+in SYSTEMPATH\Model.php on line 388.
+ 1 SYSTEMPATH\BaseModel.php(987): CodeIgniter\Model->doUpdate(null, [...])
+ 2 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update(null, [...])
+ 3 APPPATH\Controllers\UserController.php(104): CodeIgniter\Model->update(null, [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->updateUsers('15')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 07:49:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:49:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:49:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 07:49:04 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1778.
+ 1 SYSTEMPATH\BaseModel.php(1778): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(956): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\UserController.php(105): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->updateUsers('15')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 07:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:50:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 07:51:06 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1778.
+ 1 SYSTEMPATH\BaseModel.php(1778): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(956): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\UserController.php(105): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->updateUsers('15')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 07:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 07:52:17 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1778.
+ 1 SYSTEMPATH\BaseModel.php(1778): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(956): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\UserController.php(105): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->updateUsers('15')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 07:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:52:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:52:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:52:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:52:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:56:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:56:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:56:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 07:56:57 --> ParseError: Unmatched '}'
+in APPPATH\Views\update.php on line 66.
+ 1 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('update', [], true)
+ 3 APPPATH\Controllers\UserController.php(68): view('update', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->editUser('11')
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 07:56:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 07:58:16 --> ErrorException: Undefined array key "id"
+in APPPATH\Views\update.php on line 20.
+ 1 APPPATH\Views\update.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud\\app\\Views\\update.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\crud\\app\\Views\\update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('update', [], true)
+ 5 APPPATH\Controllers\UserController.php(68): view('update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->editUser('14')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 07:58:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:58:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 07:58:22 --> ErrorException: Undefined array key "id"
+in APPPATH\Views\update.php on line 20.
+ 1 APPPATH\Views\update.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud\\app\\Views\\update.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\crud\\app\\Views\\update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('update', [], true)
+ 5 APPPATH\Controllers\UserController.php(68): view('update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->editUser('16')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 07:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 07:59:18 --> ErrorException: Undefined array key "id"
+in APPPATH\Views\update.php on line 20.
+ 1 APPPATH\Views\update.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud\\app\\Views\\update.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\crud\\app\\Views\\update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('update', [], true)
+ 5 APPPATH\Controllers\UserController.php(68): view('update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->editUser('16')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 07:59:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 07:59:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 07:59:21 --> ErrorException: Undefined array key "id"
+in APPPATH\Views\update.php on line 20.
+ 1 APPPATH\Views\update.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\crud\\app\\Views\\update.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\crud\\app\\Views\\update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('update', [], true)
+ 5 APPPATH\Controllers\UserController.php(68): view('update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->editUser('14')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 07:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 07:59:46 --> Error: Undefined constant "id"
+in APPPATH\Views\update.php on line 20.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('update', [], true)
+ 4 APPPATH\Controllers\UserController.php(68): view('update', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->editUser('14')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 07:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 07:59:49 --> Error: Undefined constant "id"
+in APPPATH\Views\update.php on line 20.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('update', [], true)
+ 4 APPPATH\Controllers\UserController.php(68): view('update', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->editUser('14')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 07:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 07:59:58 --> ErrorException: Array to string conversion
+in APPPATH\Views\update.php on line 20.
+ 1 APPPATH\Views\update.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\crud\\app\\Views\\update.php', 20)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\crud\\app\\Views\\update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('update', [], true)
+ 5 APPPATH\Controllers\UserController.php(68): view('update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->editUser('14')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 08:00:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 08:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 08:00:55 --> ErrorException: Undefined variable $myUser
+in APPPATH\Views\update.php on line 19.
+ 1 APPPATH\Views\update.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $myUser', 'C:\\xampp\\htdocs\\crud\\app\\Views\\update.php', 19)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\crud\\app\\Views\\update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('update', [], true)
+ 5 APPPATH\Controllers\UserController.php(68): view('update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->editUser('14')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 08:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 08:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 08:04:16 --> ErrorException: Undefined variable $myUser
+in APPPATH\Views\update.php on line 19.
+ 1 APPPATH\Views\update.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $myUser', 'C:\\xampp\\htdocs\\crud\\app\\Views\\update.php', 19)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\crud\\app\\Views\\update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('update', [], true)
+ 5 APPPATH\Controllers\UserController.php(68): view('update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->editUser('14')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 08:04:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 08:04:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 08:04:40 --> ErrorException: Undefined variable $myUser
+in APPPATH\Views\update.php on line 19.
+ 1 APPPATH\Views\update.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $myUser', 'C:\\xampp\\htdocs\\crud\\app\\Views\\update.php', 19)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\crud\\app\\Views\\update.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('update', [], true)
+ 5 APPPATH\Controllers\UserController.php(68): view('update', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->editUser('14')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 08:06:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 08:07:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 08:07:01 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1778.
+ 1 SYSTEMPATH\BaseModel.php(1778): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(956): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\UserController.php(105): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->updateUsers('14')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-02-29 08:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-02-29 08:10:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-02-29 08:10:22 --> CodeIgniter\Database\Exceptions\DataException: There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1778.
+ 1 SYSTEMPATH\BaseModel.php(1778): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(956): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(807): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\UserController.php(105): CodeIgniter\Model->update([...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\UserController->updateUsers('14')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
